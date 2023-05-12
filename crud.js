@@ -40,8 +40,8 @@ function validar(valor, campo){
     return true
 }
 
-function apagar(){
-    botao.parentNode().parentNode().parentNode()
+function apagar(botao) {
+  botao.parentNode.parentNode.parentNode.remove();
 }
 
 
